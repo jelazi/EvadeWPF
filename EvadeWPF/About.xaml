@@ -1,0 +1,26 @@
+﻿<Window x:Name="About1" x:Class="EvadeWPF.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EvadeWPF"
+        mc:Ignorable="d"
+        Title="O aplikaci Evade" Height="300" Width="265.495" Closing="Window_Closing" Icon="whiteKingIcon.ico" ResizeMode="NoResize" ShowInTaskbar="False">
+    <Grid>
+        <Label x:Name="label" Content="Evade" HorizontalAlignment="Left" Margin="6,29,0,0" VerticalAlignment="Top" Height="34" Width="64" FontSize="18.667" FontWeight="Bold" RenderTransformOrigin="1,0">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="1" Y="1"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="label1" Content="Hra byla vytvořena v rámci projektového semináře&#xD;&#xA;ve druhém ročníku bakalářského studia oboru &#xD;&#xA;Aplikovaná Informatika na Univerzitě Palackého &#xD;&#xA;v Olomouci.&#xD;&#xA;&#xD;&#xA;Vedoucí projektu Mgr. Tomáš Kühr, Ph.D.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="1,102,0,0" VerticalAlignment="Top" Height="107" Width="258" FontSize="10.667" BorderBrush="#FF686060" Background="{x:Null}" BorderThickness="0,1"/>
+        <Image x:Name="WhiteKing" Margin="165,10,29,185" Source="whiteKing.png"/>
+        <Image x:Name="BlackKing" Margin="72,10,122,185" Source="pack://siteoforigin:,,,/Resources/blackKing.png"/>
+        <Label x:Name="label2" Content="Vytvořil Lubomír Žižka" HorizontalAlignment="Left" Margin="111,227,0,0" VerticalAlignment="Top" Width="120" FontSize="10.667"/>
+
+    </Grid>
+</Window>
